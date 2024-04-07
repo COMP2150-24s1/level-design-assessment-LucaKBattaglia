@@ -22,10 +22,15 @@ The intensity curve in the level design starts with section one, which is intent
 As players progress to section 2, the intensity ramps up significantly through new hazards are introduced, including spikes, new enemies, and moving platforms, making jumps trickier and more time-sensitive. Safe zones become scarcer, and checkpoints are spaced further apart, heightening the overall challenge. This design facilitates increasing yet modulating intensity by gradually introducing new challenges and building upon existing ones. Each section is divided into encounters that require players to utilize their skills, ensuring they have a clear goal to work towards. 
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+The main challenges in the game are the enemies and traps/hazards, as players have limited health and cannot constantly engage in fights or rush through traps. Many jumps require precision and are time-sensitive, especially in section 2. To control the difficulty curve and keep players in the flow channel, I've designed the game to gradually introduce mechanics and dynamics in section 1, allowing players to build confidence in their skills. As the challenge increases, players enter section 2, where they encounter over double the previous enemies in open spaces with more punishing jumps, often on moving platforms. To prevent discouragement, I replaced the acid traps from section 1 with spike traps. While still dangerous, spike traps allow players a brief moment to recover after taking damage, making the section challenging yet player-friendly.
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+The level's sections operate autonomously together, while each offering a unique experience setting it apart from the rest. Section 2 contrasts this, with vibrant colours that challenge players' focus on key elements like moving platforms and traps, the stark difference from section 1's confinement and lack of freedom amplifies the impact of the environment, enhancing the player's experience within section 2 whilst also creating a new challenge.  
+#### Layout & Pathing
+The sections are interconnected by a moving platform acting as an elevator, allowing non-linear pathing between sections once section 1 is completed, this form of non-linear pathing is continued in parts of sections 2 and 3, offering multiple paths for progression.
+
+#### Aesthic
+The aesthetic of each section is distinct: section 1 is underground with cave-like spaces and desert surroundings, section 2 features an open sky with lush grass and vivid colours, and section 3 blends underground jungle elements with visible skylights and natural stone formations. These unique aesthetics facilitate exploration without hindering navigation, making it easy for players to orient themselves within the level.
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
