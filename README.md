@@ -35,31 +35,49 @@ The aesthetic of each section is distinct: section 1 is underground with cave-li
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
 
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
-
-### 2.1. Acid
+### 2.1. Passthrough Platforms
+PassThrough platforms are tiles that are not snapped to the grid board and are treated as an object, by crouch down and pressing space players can drop down through passthrough platforms.
+![Map ScreenShot](DocImages/SB1.png)
 
 ### 2.2. Checkpoints
+A checkpoint is strategically placed at the beginning of each area in level this sets the players spawn to a set location everytime they reach a certain area, if the player has yet to touch a new checkpoint and dies on the way they will respawn at the previous checkpoint and if they haven't touched any will respawn at the original spawn point.
+![Map ScreenShot](DocImages/SB3.png)
 
-### 2.3. Chompers
+### 2.3. Acid
+Acid is a trap object that can be placed similar to tiles, when players come into contact with acid they take 1 damage and are reset back to the last checkpoint.
+![Map ScreenShot](DocImages/SB2.png)
 
 ### 2.4. Health Pickups
+Health Pickups are the only object within the game that can heal the player the amount of each health pack can vary, however as the game progresses the health packs will be worth less health the they were at the start.
+![Map ScreenShot](DocImages/SB4.png)
 
-### 2.5. Keys
+### 2.5. Chompers
+Chompers are an enemy type that are much more aggressive than spitters, they actively pursue players and bite launch themselves when in range to bite the players unlike its counter part teh spitter.
+![Map ScreenShot](DocImages/SB7.png)
 
-### 2.6. Moving Platforms
+### 2.6. Weapon Pickup (Staff)
+The staff is a weapon pick up that allows the players to enagage in close combat, it can also be used to bridge large jumps as it slightly moves players in the direction that they attack.
+![Map ScreenShot](DocImages/SB6.png)
 
-### 2.7. Passthrough Platforms
+### 2.7. Keys
+The keys are the main goal of the level and each of them are placed in a different section collection of the keys is tracked through the UI at the top right hand side of the screen, once all 3 keys have been collected players can now open the final door and complete the game.
+![Map ScreenShot](DocImages/SB5.png)
 
-### 2.8. Spikes
+### 2.8. Moving Platforms
+Moving platforms are tiles that are not snapped to the grid board and are treated as an object, they can be used to transport both players and enemies from one destination to another.
+![Map ScreenShot](DocImages/SB10.png)
 
-### 2.9. Spitters
+### 2.9. Spikes
+Spikes are a trap object that damages and knocks the player back slightly when coming into contact unlike the acid the spikes only damage a player and do not reset them back to the last checkpoint.
+![Map ScreenShot](DocImages/SB11.png)
 
-### 2.10. Weapon Pickup (Gun)
+### 2.10. Spitters
+Spitters are an enemy type that acts much like a sentury, when detecting a player within its range it will lock on and spit a spitball towards the player, over long distances this spit ball will start to fall as it is effected by gravity.
+![Map ScreenShot](DocImages/SB8.png)
 
-### 2.11. Weapon Pickup (Staff)
+### 2.11. Weapon Pickup (Gun)
+The gun is a weapon pick up is fairly staright forward, it allows a player to shoot projectiles in a straight line across the screen to damage enemies from afar, it is the best way to deal with ranged enemies such as spitters.
+![Map ScreenShot](DocImages/SB9.png)
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
