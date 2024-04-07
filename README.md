@@ -1,28 +1,25 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
-
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
+### Name: [Gian-Luca Battaglia]
+### Student number: [47416084] 
 
 ```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
 ```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
+![Map ScreenShot](DocImages/SSF.png)
 
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+Players learn the games mechanics and dynamics through isolation, repetition and reinforcement mechanics through confined spaces that direct player interactions, repetition of actions and reinforcement through a risk / reward system. Upon starting the game players spawn in a confined room with limited options for movement, leading them to interact with the environment and interact/discover Pass-Through-Platforms & a new checkpoint. Players now encounter basic jumps over acid, activate pressure plates with moveable cubes to unlock the previously confined rooms & navigate increasingly challenging jumps varying in size and shape. As a reward players are given a checkpoint after the harder jumps & just before their first encounter with enemy & there first weapon. This approach allows for players to experiment and make there own discoveries slowly introducing the basics of each mechanics & dynamics in a controlled space before progressing to later sections with high difficulty.
+
+ The encounter & level design encourages players to interact with their environment, rewarding them when completing a task successfully and not punishing them for failure but allowing them to reattempt difficult sections without losing excessive progression.
+
+ ![Map ScreenShot](DocImages/SS1.png)
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+The intensity curve in the level design starts with section one, which is intentionally easier to allow players to familiarize themselves with the mechanics and challenges. Even here, players encounter tense moments like facing the first enemy and navigating hazardous acid traps with precise timing. These tense moments are balanced by periods of relief, providing players with a chance to catch their breath and process what they've learned.
+
+As players progress to section 2, the intensity ramps up significantly through new hazards are introduced, including spikes, new enemies, and moving platforms, making jumps trickier and more time-sensitive. Safe zones become scarcer, and checkpoints are spaced further apart, heightening the overall challenge. This design facilitates increasing yet modulating intensity by gradually introducing new challenges and building upon existing ones. Each section is divided into encounters that require players to utilize their skills, ensuring they have a clear goal to work towards. 
 
 ### 1.3. Challenge
 What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
