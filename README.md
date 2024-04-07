@@ -26,11 +26,17 @@ The main challenges in the game are the enemies and traps/hazards, as players ha
 
 ### 1.4. Exploration
 The level's sections operate autonomously together, while each offering a unique experience setting it apart from the rest. Section 2 contrasts this, with vibrant colours that challenge players' focus on key elements like moving platforms and traps, the stark difference from section 1's confinement and lack of freedom amplifies the impact of the environment, enhancing the player's experience within section 2 whilst also creating a new challenge.  
+![Map ScreenShot](DocImages/SS1.png)
 #### Layout & Pathing
 The sections are interconnected by a moving platform acting as an elevator, allowing non-linear pathing between sections once section 1 is completed, this form of non-linear pathing is continued in parts of sections 2 and 3, offering multiple paths for progression.
 
+
+![Map ScreenShot](DocImages/SS2.png)
+
 #### Aesthic
 The aesthetic of each section is distinct: section 1 is underground with cave-like spaces and desert surroundings, section 2 features an open sky with lush grass and vivid colours, and section 3 blends underground jungle elements with visible skylights and natural stone formations. These unique aesthetics facilitate exploration without hindering navigation, making it easy for players to orient themselves within the level.
+
+![Map ScreenShot](DocImages/SS3.png)
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -93,9 +99,21 @@ No additional words are necessary for this section (any words should only be wit
 ### 3.4.	Level Map – Section 3
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+ Iterative design, vital in game layout creation, involves refining prototypes through testing and adjustments. This process ensures gameplay meets desired standards, l made use of githubs version control as it is very well suited to such tasks and l believed can used to display some of my earlier prototypes / iterations.
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+  ![Map ScreenShot](DocImages/DDF.png)
+ 
+ Initially, when I began my iterative design journey by creating a prototype based on universally applicable storyboards derived from the game's assets, as illustrated above. This allowed for an assessment of gameplay feasibility and mechanics, with a focus on establishing core elements and the flow of the level. For instance, in section 1, I implemented tile map creation and acid jumps, which later evolved into a tutorial-like section, enabling players to acquaint themselves with features at their own pace.
+
+  ![Map ScreenShot](DocImages/SS1.png)
+
+Following the initial prototype, subsequent playtesting sessions with my siblings provided invaluable feedback, they highlighted navigational challenges and difficulties with certain jumps, particularly in sections 1 and 3 of the level. Based on this feedback, I undertook a series of revisions and adjustments to address these issues. Changes included moving platform speeds alterations, blocking off certain pathways to improve player guidance, and refining mechanics to enhance overall gameplay balance.
+
+The final iteration of the level effectively addressed earlier issues, resulting in enhanced player navigation and an improved overall gameplay experience. Adjustments made to the level layout and mechanics significantly improved flow and mitigated player frustration.
+
+ ![Map ScreenShot](DocImages/SSF.png)
+
+Reflecting on the iterative design process underscores the pivotal role of continual refinement in shaping the level's development. While the final version represents a substantial improvement, there remain areas for future enhancement. Future iterations could focus on further optimizing player progression, fine-tuning mechanics, and introducing additional elements such as: Breakbale walls and teleporters from the 2D platformer kit.
 
 ## Generative AI Use Acknowledgement
 
