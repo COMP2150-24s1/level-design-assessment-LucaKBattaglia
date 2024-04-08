@@ -91,29 +91,25 @@ A section on Spatiotemporal Design, which includes your molecule diagram and ann
 No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
-
+![Map ScreenShot](DocImages/MD1.png)
 ### 3.2. Level Map – Section 1
-
+![Map ScreenShot](DocImages/FC1.png)
 ### 3.3.	Level Map – Section 2
-
+![Map ScreenShot](DocImages/FC2.png)
 ### 3.4.	Level Map – Section 3
-
+![Map ScreenShot](DocImages/FC3.png)
 ## 4. Iterative Design (~400 words)
- Iterative design, vital in game layout creation, involves refining prototypes through testing and adjustments. This process ensures gameplay meets desired standards, l made use of githubs version control as it is very well suited to such tasks and l believed can used to display some of my earlier prototypes / iterations.
 
-  ![Map ScreenShot](DocImages/DDF.png)
- 
- Initially, when I began my iterative design journey by creating a prototype based on universally applicable storyboards derived from the game's assets, as illustrated above. This allowed for an assessment of gameplay feasibility and mechanics, with a focus on establishing core elements and the flow of the level. For instance, in section 1, I implemented tile map creation and acid jumps, which later evolved into a tutorial-like section, enabling players to acquaint themselves with features at their own pace.
+When I began my iterative design l first created the storyboards of each feature in the form of how l originally intended to use them, using them l created basic levels designs that eventually lead to the level maps seen in section 3. After this l started to experiment with the tiles and inbuilt-feature within the project through unity, making my first commit two commits to the repository being the Section 1 design & the Acid feature.
+![Map ScreenShot](DocImages/DDF.png)
 
-  ![Map ScreenShot](DocImages/SS1.png)
+Continuing this pattern of playtesting l enlisted the help of my siblings that had not yet seen the game to gain new feedback on what they wanted to see & what they liked/disliked. This allowed for an assessment of the flow of game play & how l should fesabily incorporate future mechanics & changes to the current design layout, this would later evolve into me completing the Section 1 & then completely altering it after adding new features to make it more tutorial-like, enabling players to better acquaint themselves with dynamics & mechanics at their own pace. Following the initial prototype, subsequent play testing sessions with my siblings provided invaluable feedback, they highlighted navigational challenges and difficulties with certain jumps, particularly in sections 1 and 3 of the level. Based on this feedback, I undertook a series of adjustments to address these issues, changes included moving platform speeds, blocking off certain pathways to improve player guidance, overall gameplay difficulty.
 
-Following the initial prototype, subsequent playtesting sessions with my siblings provided invaluable feedback, they highlighted navigational challenges and difficulties with certain jumps, particularly in sections 1 and 3 of the level. Based on this feedback, I undertook a series of revisions and adjustments to address these issues. Changes included moving platform speeds alterations, blocking off certain pathways to improve player guidance, and refining mechanics to enhance overall gameplay balance.
+![Map ScreenShot](DocImages/SSF.png)
 
-The final iteration of the level effectively addressed earlier issues, resulting in enhanced player navigation and an improved overall gameplay experience. Adjustments made to the level layout and mechanics significantly improved flow and mitigated player frustration.
+The final iteration of the level effectively addresses earlier issues, now incorporating an enhanced player navigational and overall gameplay progression, while adjustments made to the layout have significantly improved player flow and mitigated player frustration, going from a finish time of 8.20 minutes and 1-3 deaths per playertester on average to 0 deaths & a finish time of 5.47 minutes per playertester.
 
- ![Map ScreenShot](DocImages/SSF.png)
-
-Reflecting on the iterative design process underscores the pivotal role of continual refinement in shaping the level's development. While the final version represents a substantial improvement, there remain areas for future enhancement. Future iterations could focus on further optimizing player progression, fine-tuning mechanics, and introducing additional elements such as: Breakbale walls and teleporters from the 2D platformer kit.
+Reflecting on the iterative design process I believe that through consistent playtesting & quality version control the time taken to create the game has been significantly lessened in comparison to other design process like pilot or agile, while also leaving behind a clear representation of level design  improvement between each commit. There are remaining areas for future enhancement, future iterations could focus on further optimizing player progression while also introducing additional elements such as: Breakable walls and teleporters from the 2D platformer kit as well as building upon the given backgrounds making the game more visually appealing.
 
 ## Generative AI Use Acknowledgement
 
